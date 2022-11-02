@@ -1,0 +1,162 @@
+.hero-0 {
+  background-color: var(--color-gray-light);
+  min-height: 500px;
+  max-height: 500px;
+  margin-top: 130px;
+}
+
+.hero-1 {
+  font-size: 36px;
+  line-height: 40px;
+  margin: 130px 0 0 115px;
+  position: absolute;
+}
+
+.hero-2 {
+  font-size: 18px;
+  line-height: 25px !important;
+  margin: 40px 0 0 0;
+}
+
+.hero-3 {
+  width: 50%;
+  float: right;
+  min-height: 500px;
+  max-height: 500px;
+  background-image: url(../../assets/img/US-NA-0024-hero-new.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.green-bar {
+  background-color: var(--color-green);
+  height: 6px;
+  margin: 100px 0 20px 115px;
+  position: absolute;
+  width: 60px;
+}
+
+.lectures {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  font-size: 22px;
+  height: 60px;
+  margin: -30px 0 0 0;
+  padding: 12px 0 0 115px;
+  position: absolute;
+  width: 465px;
+}
+
+.bottom-space {
+  margin-bottom: 100px;
+}
+
+hr {
+  width: 10%;
+  background-color: var(--color-lime);
+  height: 1px;
+}
+
+.border-circle {
+  margin-top: -30px;
+}
+
+.parallax {
+  background-image: url("../../assets/img/US-NA-0024-hero-main.png");
+  height: 385px;
+  background-attachment: fixed;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrow {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  font-size: 22px;
+  height: 40px;
+  right: -20px;
+  position: absolute;
+  top: 16px;
+  width: 40px;
+}
+
+.thumbnail {
+  background-repeat: no-repeat;
+  border: 2px solid var(--color-blue);
+  cursor: pointer;
+  font-size: 14px;
+  height: 80px;
+  padding-right: 40px;
+  width: 340px;
+}
+
+.thumbnail > div {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.thumbnail-blank {
+  width: 220px;
+}
+
+.thumbnail-image {
+  margin-left: -14px; 
+  width: 215px; 
+  height: 146px;
+}
+
+.thumbnail-inner {
+  background-color: var(--color-orange);
+  margin-left: -40px;
+  color: var(--color-white);
+  height: 50%;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  opacity: .95;
+  font-weight: bold;
+  font-size: 9pt;
+  align-items: center;
+  display: flex;
+}
+
+.triangle {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -18px;
+  margin-left: -4px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 18px 0;
+  border-color: transparent var(--color-orange-dark) transparent transparent;
+}
+
+.microscope {
+}
+
+.microscope-0 {
+  position: absolute;
+  height: 300px; 
+  bottom: 0;
+  width: 100%;
+}
+
+.microscope-1 {
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+.microscope-2 {
+  padding: 20px 140px 0 140px !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero-3 {
+    background-image: url();
+  }
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<body>
+  <div class="container-fluid full-width">
+    <div class="row">
+      <div class="col-12 p-4 fixed">
+        <div class="header-text">
+          Merck<br/>
+          <b>Academy</b>
+          <div *ngIf="showBack" class="mx-auto thumbnail-1 col mb-4" (click)="home()">
+            <span class="arrow-left">
+              <img width="95%" src="../assets/img/US-NA-0024-arrow-left.png">
+            </span>
+            <div class="color-normal-md text-right">
+              <b>Back to home</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <div class="row contact-outer" >
+
+      <!-- this block shows the sub-footer information. This is specific for the
+           mobile version. Class footer-mobile controls the show-hide based
+           on defined media query. -->
+
+      <!--
+
+      <div class="col-10 footer-mobile">
+        <div>
+          <div class="mt-3 mb-2 color-normal-lg">
+            About
+          </div>
+          <div class="mb-2">
+            Merck Academy presentations are live, in-person lectures, facilitated
+            by Merck subject-matter experts. All of the Merck Academy faculty
+            have postdoctoral training and are engaged in a variety of medical and
+            scientific activities.
+          </div>
+          <div class="mb-2">
+            These live presentations comprise a variety of general scientific topics,
+            including drug discovery, vaccine development, outcomes research,
+            clinical trials, and statistics. Additional topics continue to be developed
+            and added.
+          </div>
+          <div class="mb-3">
+            Potential audiences for Merck Academy might include faculty, fellows,
+            residents, and medical students. Merck Academy is not intended to
+            provide continuing medical education (CME) credits.
+          </div>
+        </div>
+        <div class="contact p-2 rounded-lg p-0 text-center mt-1 mb-3">
+          <a href="" data-toggle="modal" data-target="#modalContact">CONTACT A MERCK ACCOUNT TEAM MEMBER</a>
+        </div>
+        <div class="mb-3">
+          <b>To learn more</b> about Merck
+          Academy, the topics covered,
+          or to schedule a Merck speaker,
+          please contact a Merck account
+          team member.
+        </div>
+      </div>
+
+      -->
+
+      <!-- this block shows the sub-footer information. This is specific for the
+           desktop version. Class footer-desktop controls the show-hide. -->
+
+      <div class="col-10 pb-4 footer-desktop">
+        <div class="mb-2 color-normal-lg padding-desktop">
+          <b>About</b>
+        </div>
+        <div class="mb-2 color-normal-md">
+          Merck Academy presentations are live, in-person lectures, facilitated
+          by Merck subject-matter experts. All of the Merck Academy faculty
+          have postdoctoral training and are engaged in a variety of medical and
+          scientific activities.
+        </div>
+        <div class="mb-2 color-normal-md">
+          These live presentations comprise a variety of general scientific topics,
+          including drug discovery, vaccine development, outcomes research,
+          clinical trials, and statistics. Additional topics continue to be developed
+          and added.
+        </div>
+        <div class="mb-2 color-normal-md">
+          Potential audiences for Merck Academy might include faculty, fellows,
+          residents, and medical students. Merck Academy is not intended to
+          provide continuing medical education (CME) credits.
+        </div>
+        <div class="col-md-6 color-normal-md footer-contact">
+          <b>To learn more</b> about Merck Academy, the topics covered,
+          or to schedule a Merck speaker, please contact a Merck account
+          team member.
+        </div>
+        <div class="col-md-6 footer-contact">
+          <div class="col mx-auto">
+            <a href="" data-toggle="modal" data-target="#modalContact">
+              <div class="mx-auto thumbnail col mb-4">
+                <span class="arrow">
+                  <img width="95%" src="../../assets/img/US-NA-0024-arrow-right.png">
+                </span>
+                <div class="color-normal-md">
+                  <b>Contact a Merck Academy<br/>
+                     Team Member
+                  </b>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      <div class="col-md-3 contact-outer rounded-lg pb-2 footer-desktop">
+        <div class="col-md contact p-2 rounded-lg p-0 mb-3">
+          <a href="" data-toggle="modal" data-target="#modalContact">CONTACT A MERCK ACCOUNT TEAM MEMBER</a>
+          <img class="contact-arrow" src="./assets/img/US-NA-0024-right-contact.png">
+          <div class="triangle"></div>
+        </div>
+        <div class="contact-border-left">
+          <b>To learn more</b> about Merck Academy, the topics covered,
+          or to schedule a Merck speaker, please contact a Merck account
+          team member.
+        </div>
+      </div>
+      -->
+    </div>
+
+    <!-- this block shows the footer information. This is specific for the
+         desktop and mobile version with LAYOUT controlled via media queries. -->
+
+    <div class="row footer-background">
+      <div class="footer-brand">
+        <img class="footer-image" src="./assets/img/US-NA-0024-footer-w.png">
+      </div>
+      <div class="footer col color-white-lg">
+        <div class="footer-text">
+          Copyright &copy; 2022 Merck Sharp &amp; Dohme Corp., a subsidiary of <b>Merck &amp; Co., Inc.</b><br/>
+          All rights reserved. Merck &amp; Co., Inc. (USA) MI-MS3-0001-US 10/21
+        </div>
+        <div class="footer-text">
+          <a target="_blank" href="//www.msdprivacy.com/us/en/index.html"><u>Privacy Policy</u></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+          <a target="_blank" href="//www.merck.com/policy/terms-of-use/home.html"><u>Terms of Use</u></a>
+        </div>
+        <div class="footer-text-1">
+          <a target="_blank" href="//privacy.truste.com/privacy-seal/validation?rid=0a0fd821-0cd2-443b-99ea-9e96f2ccbee9">
+            <img class="footer-image-2" src="./assets/img/US-NA-0024-footer-tap.png">
+          </a>
+          <a target="_blank" href="http://privacy.truste.com/privacy-seal/validation?rid=343d5d70-40be-4ab1-8853-82bfbd0fe8f2">
+            <img class="footer-image-2" src="./assets/img/US-NA-0024-footer-tvp.png">
+          </a>
+        </div>
+      </div>
+      <div class="col-1">
+      </div>
+    </div>
+  </div>
+
+  <!-- this block is for the modal contact-us form. This is seperate of the
+       main 'body' of HTML for the homepage. -->
+
+  <div class="modal fade" id="modalContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="text-center">
+          <button type="button" class="close pt-2 pr-2" data-dismiss="modal" aria-label="Close">
+            <span class="contact-close" aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="ml-4 mr-4">
+          <div class="contact-header col-10 mx-auto modal-title w-100 font-weight-bold text-center pt-2">
+            <b>Contact a Merck Account Team Member</b>
+          </div>
+          <div class="modal-body mx-3 color-normal-md-1">
+            <div>
+              To request that a Merck Academy program be scheduled at your institution, or for questions
+              about the program, please enter your contact information below and a Merck Academy Team
+              Member will contact you
+            </div>
+            <br/>
+            <div class="md-form mb-2">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <label data-error="wrong" data-success="right" for="form-email"><b>Name</b></label>
+              <input type="text" id="form-name" class="form-control validate">
+            </div>
+            <div class="md-form mb-2">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <label data-error="wrong" data-success="right" for="form-email"><b>Title</b></label>
+              <input type="text" id="form-title" class="form-control validate">
+            </div>
+            <div class="md-form mb-2">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <label data-error="wrong" data-success="right" for="form-message"><b>Institution</b></label>
+              <input type="text" id="form-institution" class="form-control validate">
+            </div>
+            <div class="md-form mb-2">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <label data-error="wrong" data-success="right" for="form-message"><b>Phone Number</b></label>
+              <input type="text" id="form-phone" class="form-control validate">
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-end pt-2 pb-3">
+          <button style="margin-right: 55px;" class="btn btn-default color-green-btn"><b>Submit</b></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>

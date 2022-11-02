@@ -1,0 +1,114 @@
+{
+  "resources": [
+    {
+      "title": "Adherence to Prescription Medications",
+      "video": "",
+      "download": "",
+      "downloadname": "",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul style='padding: 0;'><li>Define the different types of medication adherence, and understand their barriers and their impact on health outcomes.</li><li>Describe the medication adherence measurements and tactics for screening.</li><li>Review different strategies to help improve medication adherence.</li></ul>",
+      "summary": "Medication adherence is the process by which patients take their medicine as prescribed by their health care provider. Nonadherence may be associated with greater mortality risk, increased hospitalizations, and increased costs. This presentation reviews various barriers to adherence, discusses tools to measure adherence, and explores various strategies that may help improve adherence, including patient reminders and education and various patient-centered communication strategies. The presentation aims to highlight that medication adherence is an important issue that may be impacted by all members of the care team.",
+      "slides": [ "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png",  "./assets/sample4.png", "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png",  "./assets/sample4.png", "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png",  "./assets/sample4.png", "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png",  "./assets/sample4.png", "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png",  "./assets/sample4.png" ]
+    },
+    {
+      "title": "Applying Evidence-Based Medicine to Clinical Practice",
+      "video": "./assets/videos/sample2.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Define the goals of evidence-based medicine (EBM).</li><li>Understand the different stages of EBM.</li><li>Suggest strategies for the application of EBM at the patient level.</li></ul>",
+      "summary": "This presentation introduces EBM—an approach to the practice of medicine that involves integrating a critical review of research literature with clinical expertise and patient values and circumstances. Ways to identify high-quality research evidence are discussed. Although some argue that EBM may only be practiced by academicians, this presentation aims to dispel this myth. The presenter walks the audience through an example of the critical process of EBM and suggests some strategies for its application at the patient level.",
+      "slides": [ "./assets/sample1.png", "./assets/sample2.png" ]
+    },
+    {
+      "title": "Applying Principles of Pharmacology to Clinical Practice",
+      "video": "",
+      "download": "",
+      "downloadname": "",
+      "thumbnail": "./assets/thumbnails/Antimicrobial-Stewardship-Thumbnail.png",
+      "objective": "<ul><li>Provide an overview of the basic principles of pharmacology as they apply to clinical medicine.</li><li>Identify drug-related factors and patient characteristics that alter pharmacokinetics (PK) and pharmacodynamics (PD) of drugs.</li><li>Understand how PK and PD a!ect efficacy and safety of drug therapies.</li></ul>",
+      "summary": "Using knowledge of the principles of pharmacology in everyday practice may help clinicians maximize the efficacy and safety of drug therapies. This presentation provides an overview of principles of PK and PD, and explores how the effects of drugs are influenced by drug-associated factors and patient characteristics. The presenter reviews 4 key criteria that influence drug levels and kinetics in the body, speci$cally absorption, distribution, metabolism, and excretion. A deeper understanding of these concepts may help clinicians prescribe an appropriate therapeutic treatment regimen and reduce the possibility of adverse e!ects. Examples of drug-related factors and patient characteristics that impact PK and PD are emphasized.",
+      "slides": [ "./assets/slides/apm/Adherence-Prescription-Meds-Slide-01.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-02.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-03.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-04.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-01.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-02.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-03.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-04.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-01.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-02.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-03.png", "./assets/slides/apm/Adherence-Prescription-Meds-Slide-04.png" ]
+    },
+    {
+      "title": "Bringing Medications From Bench to Bedside",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Provide an overview of each stage of the drug development process.</li><li>Discuss some of the current challenges faced during the drug discovery and development.</li><li>Highlight possible future directions and opportunities in drug research and development.</li></ul>",
+      "summary": "Drug development, from early discovery to regulatory approval for marketing, involves a long, complicated process. The process is complex, expensive, and has a low likelihood of eventual success. Completing this development process takes more than 10 years and involves collaboration among industry scientists, academic researchers, and clinicians. This presentation reviews the work involved at each stage of the drug discovery and development process and describes several challenges faced when bringing a medication from the chemist’s bench to the patient’s bedside. Recent changes in diagnostics, therapeutics, and drug development, along with rapid advancements in areas such as biologics, biosimilars, and nanotechnology, are likely to shape future clinical research and treatments.",
+      "slides": [ "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png",  "./assets/sample4.png"]
+    },
+    {
+      "title": "Importance of Patient Diversity in Clinical Trials",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Explain why diversity is important in clinical trials.</li><li>Understand the barriers that limit the participation of patients from underrepresented groups in clinical trials.</li><li>Identify strategies that health care professionals (HCPs) can use to overcome these barriers.</li></ul>",
+      "summary": "Historically, diversity has not always been considered in clinical trials but ignoring diversity may contribute to missed opportunities to fully understand the factors that lead to disease or good health outcomes. Diversity in clinical trials may provide results that are more generalizable, reduce disparities in health outcomes, and optimize treatment based on individual differences. This presentation will explore barriers to the inclusion of patients from underrepresented groups in clinical trials, including patient barriers, HCP-related barriers, and barriers resulting from the clinical trial itself. The presenter will explore several strategies that may be used to help promote diversity in clinical trials.",
+      "slides": [ "./assets/sample1.png" ]
+    },
+    {
+      "title": "Interpretations of Clinical Data Using Basic Statistical Concepts in Clinical Science",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Understand how sensitivity and prevalence can be used to interpret diagnostic tests.</li><li>Know the basic types of data and the terms used to describe them.</li><li>Learn how the study design affects the type of data available.</li><li>Understand the types of statistical tests and how they can be applied.</li><li>Learn how statistical and clinical significance differ and how to use these concepts to interpret results.</li><li>Know the meanings of and use for absolute and relative risk.</li><li>Describe the concept of number needed to treat (NNT).</li><li>Explain the differences between risks and odds, and how they are used.</li></ul>",
+      "summary": "To read and evaluate medical research, clinicians need to be able to understand basic statistical concepts (eg, statistical and clinical significance, risks and odds ratios, and number needed to treat) and apply them appropriately to clinical studies. This presentation begins with illustrations to help clinicians better understand what is meant by statistical and clinical significance. Absolute and relative risks, odds and odds ratios, and number needed to treat are then defined and illustrated with nonmedical and medical examples. The presentation concludes with a discussion of the criteria used to discriminate causation vs association in clinical research. Together, these explanations and examples may help clinicians interpret research findings and apply them to clinical practice. A background in statistical concepts and terminology is not needed.",
+      "slides": [ "./assets/sample1.png", "./assets/sample2.png" ]
+    },
+    {
+      "title": "Patient Engagement in Clinical Trials",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Define patient engagement.</li><li>Explore patient engagement across the clinical trial continuum.</li><li>Highlight approaches to support patient engagement in clinical trials.</li></ul>",
+      "summary": "Patient engagement is a concept that combines a patient’s knowledge, skills, ability, and willingness to manage their own health and to improve health care. Although clinical trials are critical to advance health and patient participation is essential, the patient perspective is rarely considered. Patients can provide valuable insights across the clinical trial continuum and help support more efficient trials with better recruitment and retention, and more impactful outcomes. This presentation will explore opportunities to better engage patients in clinical trials. The presenter will discuss approaches to address patient barriers to trial participation, highlight the importance of physician involvement, and review recruitment and retention strategies. The involvement of patient groups and the commitment by regulatory agencies is expected help facilitate patient engagement in clinical trials.",
+      "slides": [ "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png" ]
+    },
+    {
+      "title": "Principles of Biomakers in Drug Development and Diagnostic Clinical Support",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Define the term biomarker and learn about the different biomarker subtypes.</li><li>Discuss the application of biomarkers in research, clinical practice, and drug development.</li><li>Review methodologies used to quantify biomarkers and learn how these tests are regulated.</li></ul>",
+      "summary": "Biomarkers may be used throughout the patient journey to aid in diagnosis, monitoring, prediction of treatment response, and monitoring of safety and risk. Biomarkers also aid research and inform new drug development. This presentation will provide multiple examples of how different biomarkers may be used in research, clinical practice, and drug development. It will describe various methodologies for measuring biomarkers and provide an overview of how biomarker tests are regulated to ensure that the tests are “fit for purpose” and improve patient outcomes.",
+      "slides": [ "./assets/sample1.png", "./assets/sample2.png", "./assets/sample3.png",  "./assets/sample4.png"]
+    },
+    {
+      "title": "The Science of Vaccine Development",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Recognize unique aspects of vaccines and the impact they have had on public health.</li><li>Understand the immune response to vaccination, the different types of vaccines, and how vaccines protect people.</li><li>Identify the stages in vaccine development and safety monitoring as compared to drug development.</li><li>Learn about guidelines for vaccine administration (practical vaccinology) and current challenges and solutions.</li></ul>",
+      "summary": "Vaccines have contributed to global health and have prevented more than 100 million cases of serious communicable diseases in the United States since 1924. Vaccines are complex entities, both in terms of their components and the technology required to produce them. This presentation provides examples of the effect of vaccines on public health, reviews key elements of the host immune system and how vaccines help to protect against disease, and discusses the complex processes and ongoing safety monitoring involved in vaccine development. The presenter also discusses how, despite guidelines for vaccine administration, attaining high vaccination coverage is an ongoing challenge, in part, due to vaccine hesitancy. Vaccine hesitancy is the delayed acceptance or refusal of vaccines despite their availability. The presenter will review various communication strategies to address vaccine hesitancy, enhance communication, and reinforce vaccination needs.",
+      "slides": [ "./assets/sample1.png" ]
+    },
+    {
+      "title": "Understanding Comparative Electiveness Research",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Define comparative effectiveness research (CER) and how they are used.</li><li>Describe the methods commonly used in CER.</li><li>Understand how to assess the relevance and credibility of a study.</li></ul>",
+      "summary": "Consumers, patients, health care professionals, and payers need information to make informed medical decisions. CER is the use of evidence to directly compare two or more interventions and strategies to prevent, diagnose, treat, and monitor health conditions. This presentation reviews the types of data used in CER and explores the strengths and weaknesses of different types of studies. Each decision maker must consider the relevance and credibility of the available evidence. The presenter will review the questions that should be considered when evaluating relevance and credibility. CER will continue to play an important role in determining what works best for patients in the future.",
+      "slides": [ "./assets/sample1.png", "./assets/sample2.png" ]
+    },
+    {
+      "title": "Health Equity",
+      "video": "./assets/videos/sample.mp4",
+      "download": "./assets/downloads/",
+      "downloadname": "sample.pptx",
+      "thumbnail": "./assets/thumbnails/sample.png",
+      "objective": "<ul><li>Recognize the difference between equity and equality.</li><li>Identify the 5 categories of social determinants of health (SDoH) and provide an example of each.</li><li>Describe the relationship between SDoH, health outcomes, health disparities, and health equity.</li><li>Explore opportunities to help improve health equity.</li></ul>",
+      "summary": "Social determinants of health (SDoH) are the non-medical factors that influence health outcomes. When SDoH negatively impact health outcomes, they may create health disparities among racial, ethnic, and socioeconomic groups. To achieve health equity – where everyone has a fair and just opportunity to be healthy – it is important to address the SDoH that contribute to health and health care disparities. In this presentation, SDoH and their relationship to health disparities and health equity are reviewed. Furthermore, opportunities to achieve health equity through education, collaboration, research, and advocacy are presented.",
+      "slides": [ "/assets/sample1.png", "./assets/sample2.png" ]
+    }
+  ]
+}

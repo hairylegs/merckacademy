@@ -1,0 +1,147 @@
+:root {
+  --color-white: rgb(255,255,255);
+  --color-lime: rgb(127,188,66);
+  --color-green: rgb(0,134,125);
+  --color-green-dark: rgb(0,100,0);
+  --color-dark-orange: rgb(204,104,0);
+  --color-black: rgb(0,0,0);
+  --color-orange: rgb(255,128,0);
+  --color-orange-dark: rgb(204,104,0);
+  --color-gray: rgb(120,120,120);
+  --color-gray-light: rgb(247,247,247);
+  --color-gray-light-1: rgb(241,241,241);
+  --color-gray-medium: rgb(211,211,211);
+  --color-gray-dark: rgb(32,32,32);
+  --color-blue: rgb(108,185,244);
+  --color-blue-dark: rgb(35,44,61);
+  --color-mint: rgb(114,205,180);
+}
+
+@font-face {
+  font-family: "Invention";
+  src: url("./assets/fonts/Invention_Lt.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Invention Bold";
+  src: url("./assets/fonts/Invention_Bd.ttf") format("truetype");
+  font-weight: 800;
+}
+
+b {
+  font-family: "Invention Bold";
+}
+
+body {
+  font-family: "Invention";
+  font-size: 8pt;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.border {
+  border-width: 2px !important;
+  border-color: var(--color-lime) !important;
+}
+
+.color-black-md {
+  font-size: 12pt;
+}
+
+.color-green-lg {
+  color: var(--color-green);
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.color-green-md {
+  color: var(--color-green);
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.color-green-sm {
+  color: var(--color-green);
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.color-lime-sm {
+  color: var(--color-lime);
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.color-black-sm {
+  color: var(--color-black);
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.color-normal-lg {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.color-normal-md {
+  color: var(--color-black);
+  font-size: 11pt;
+}
+
+.color-normal-md-1 {
+  color: var(--color-black);
+  font-size: 9pt;
+}
+
+.color-normal-sm {
+  color: var(--color-black);
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+.color-orange-lg {
+  color: var(--color-orange);
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.color-orange-md {
+  color: var(--color-orange);
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.color-white-lg {
+  font-size: 8pt;
+  color: var(--color-white);
+}
+
+.color-white-lg-2 {
+  font-size: 10pt;
+  color: var(--color-white);
+}
+
+.color-white-xl {
+  font-size: 16pt;
+  color: var(--color-white);
+}
+
+.color-white-md {
+  font-size: 6pt;
+  color: var(--color-white);
+}
+
+.color-mint-md {
+  color: var(--color-mint);
+  font-size: 12pt;
+  font-weight: bold;
+}

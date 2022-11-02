@@ -1,0 +1,142 @@
+<!-- add the resource title above the
+     slide deck. -->
+
+<div class="row mb-4" style="margin-top:200px !important;">
+  <div class="col-1">
+  </div>
+  <div class="col-10 color-green-lg text-center">
+    <b>{{ resource.title }}</b>
+  </div>
+  <div class="col-1">
+  </div>
+</div>
+
+<!-- adds the selected slide deck and 
+     navigational arrows. -->
+
+<div class="row ml-1 mr-1">
+  <div class="col-1 p-0">
+    <div (click)="slideLeft()" class="d-flex leftArrow p-0 slide-arrow-left">
+      <img #leftArrow class="text-center resourceLeft align-self-center" src="../../assets/img/US-NA-0024-left-nf.png">
+    </div>
+  </div>
+  <div class="col-10 text-center slide-border">
+    <div class="row">
+      <div #mainSlideView class="col-12 d-inline p-0">
+        <img #slides class="slide" src="{{ resource.slides[0] }}">
+      </div>
+    </div>
+  </div>
+  <div class="col-1">
+    <div (click)="slideRight()" class="d-flex rightArrow p-0 slide-arrow-right">
+      <img #rightArrow class="text-center resourceRight align-self-center" src="../../assets/img/US-NA-0024-right-nf.png" >
+    </div>
+  </div>  
+</div>
+
+<!-- adds the slide deck thumbnail navigation
+     and arrows. -->
+
+<div class="row ml-1 mr-1 mt-2">
+  <div class="col-1 d-inline my-auto p-0">
+  </div>
+  <div class="col-10 p-0">
+    <div #thumbnailArrowLeft (click)="thumbnailLeft();" class="thumbnailLeft">
+      <img src="../../assets/img/US-NA-0024-arrow-left.png">
+    </div>
+    <div #scrollBlock class="no-scrollbars">
+      <div *ngFor="let slide of resource.slides; index as ii;">
+        <div *ngIf="ii==0; then firstBlock else block" ></div>
+        <ng-template #firstBlock>
+          <img #firstBlockSlide (click)="gotoSlide($event, ii);" id="{{ ii }}" class="thumbnail thumbnailBlockBorder" src="{{ resource.slides[ii] }}">
+        </ng-template>
+        <ng-template #block>
+          <img (click)="gotoSlide($event, ii);" id="{{ ii }}" class="thumbnail thumbnailBlock" src="{{ resource.slides[ii] }}">
+        </ng-template>
+      </div>
+    </div>
+    <div #thumbnailArrowRight (click)="thumbnailRight();" class="thumbnailRight">
+      <img src="../../assets/img/US-NA-0024-arrow-right.png">
+    </div>
+  </div>
+  <div class="col-1 d-inline my-auto p-0">
+  </div>
+</div>
+
+<!-- adds the download and video buttons. If no
+     video associated to the resource the video
+     button is hidden. -->
+
+<!--
+
+<div class="row ml-1 mt-2">
+  <div class="col-1 my-auto p-0">
+  </div>
+  <div class="col-10 p-0 button d-flex">
+    <a download="{{ resource.downloadname }}" target="_blank" href="{{ resource.download }}{{ resource.downloadname }}" >
+      <img accesskey=""src="./assets/img/US-NA-0024-download.png">
+    </a>
+    <a href="#" (click)="showVideos();" data-toggle="modal" data-target="#modalVideo">
+      <img #showVideo src="./assets/img/US-NA-0024-video.png">
+    </a>
+  </div>
+  <div class="col-1 d-inline my-auto p-0">
+  </div>
+</div>
+
+-->
+
+<!-- adds a navigational column for all the available resources
+     and a column for the matadata for the selected 
+     resource. -->
+
+<div class="row mt-4 mb-4">
+  <div class="col-1">
+  </div>
+  <div class="col-2">
+    <div *ngFor="let resource of resources; index as i;" class="col pl-0 color-black-sm nav-1" (click)="showResources(i);" [ngStyle] = "{ 'color' : navColor[i] }">
+      <hr class="border-nav" [style.backgroundColor] = "navBorderColor[i]" [style.height] = "navBorderHeight[i]">
+      {{ resource.title }}
+    </div>
+  </div>
+  <div class="col-8 color-mint-md menu-align">
+    <div class="mb-3">
+      Learning Objectives
+    </div>
+    <div class="color-normal-sm align-objectives" [innerHTML]="resource.objective">
+    </div>
+    <div class="mb-3">
+      Summary
+    </div>
+    <div class="color-normal-sm" [innerHTML]="resource.summary">
+    </div>  
+  </div>
+  <div class="col-1">
+  </div>  
+</div>
+
+<!-- adds the modal box for showing videos
+     associated to a resource. -->
+
+<!-- 
+
+<div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="text-center">
+        <button type="button" class="close pt-2 pr-2" data-dismiss="modal" aria-label="Close">
+          <span (click)="stopVideo();" class="contact-close" aria-hidden="true">&times;</span>
+        </button>
+        <div class="text-center color-green-md mt-4">
+          {{ resource.title }}
+        <div>
+        <video class="p-4" controls #videoSource>
+          <source src="{{ resource.video }}" type="video/mp4" controls>
+          Video not supported.
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+
+-->

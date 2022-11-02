@@ -1,0 +1,51 @@
+<div class="row">
+  <div class="col-12 p-0 bottom-space">
+    <div class="hero-0">
+      <div class="green-bar"></div>
+      <div class="hero-1">
+        <b>
+          Welcome to<br/>
+          Merck Academy!
+        </b>
+        <div class="hero-2">
+          Merck Academy is an educational platform<br/>
+          dedicated to sharing information with<br/>
+          the academic and medical communities<br/>
+          on subjects drawn from Merck's key<br/>
+          areas of expertise.
+        </div>
+      </div>
+      <div class="hero-3">
+      </div>  
+    </div>
+    <div class="lectures">
+      <b>Available Lectures</b>
+    </div>
+  </div>
+</div>
+
+<div class="row mb-4 mx-auto">
+  <!-- original cards
+  <div *ngFor="let resource of resources; index as i" class="col mx-auto">
+    <div [ngStyle]="{ 'background-image' : 'url(' + resource.thumbnail + ')' }" class="mx-auto thumbnail col rounded-lg mb-4" (click)="showVideos(resource, i)">
+      <div class="thumbnail-inner rounded-lg p-2">
+        {{ resource.title }}
+        <div class="triangle">
+      </div>
+      </div>
+    </div>
+  </div>
+  -->
+  
+  <div *ngFor="let resource of resources; index as i" class="col mx-auto">
+    <div class="mx-auto thumbnail col mb-4" (click)="showVideos(resource, i)">
+      <span class="arrow">
+        <img width="95%" src="../../assets/img/US-NA-0024-arrow-right.png">
+      </span>
+      <div>
+        <b>{{ resource.title }}</b>
+      </div>
+    </div>
+  </div>  
+  
+</div>
